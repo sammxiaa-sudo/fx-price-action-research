@@ -5,5 +5,9 @@
 通过对交易记录进行定性复盘，项目将首先整理若干候选结构，例如双十字星结构（Double Doji，DD）、假突破（Failed Breakout）和首次突破（First Break）。
 随后，再从这些候选方向中选择一个值得进一步研究的结构，将其逐步转化为定义清楚、可以识别、可以使用历史数据检验的研究问题。
 这一阶段的方向选择带有研究者的主观判断，因此它只负责选择研究假设的方向和类型，不构成对策略有效性或盈利能力的证明。
-
+excel表格：
 https://1drv.ms/x/c/5468AA075F00B969/IQD9qSsOIDNgRpc-J9dOAyWSAQU68LeVY5RojH5JlUFeMBI?e=sH1U8N&nav=MTVfezE0NDdGMTMzLTVBQkMtM0I0Ri1CM0RGLTg1OTAzRjk1RERFRH0
+
+第二阶段：市场趋势判定模块
+在确定候选研究方向之前，项目将首先搭建一个基础的市场趋势判定模块。该模块使用 Python，将研究者对上涨趋势和下跌趋势的主观理解转化为明确、可执行且能够重复检验的判定规则。
+现阶段只负责识别给定时点的市场方向，不涉及具体的开仓、平仓或盈利条件，后续将作为研究 DD、假突破及 First Break 等价格行为结构的基础市场环境。
