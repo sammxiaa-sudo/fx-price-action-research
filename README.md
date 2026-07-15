@@ -8,6 +8,10 @@
 excel表格：
 https://1drv.ms/x/c/5468AA075F00B969/IQD9qSsOIDNgRpc-J9dOAyWSAQU68LeVY5RojH5JlUFeMBI?e=sH1U8N&nav=MTVfezE0NDdGMTMzLTVBQkMtM0I0Ri1CM0RGLTg1OTAzRjk1RERFRH0
 
+数据获取方式
+本项目确定使用 cTrader 作为行情数据来源和代码运行平台。
+由于 cTrader 可以直接提供历史及实时K线数据，因此项目不再单独开发数据爬取文件，而是通过平台接口读取所需行情，并将数据直接用于后续的趋势判断、策略测试和回测。
+
 第二阶段：市场趋势判定模块
 在确定候选研究方向之前，项目将首先搭建一个基础的市场趋势判定模块。该模块使用 Python，将研究者对上涨趋势和下跌趋势的主观理解转化为明确、可执行且能够重复检验的判定规则。
 现阶段只负责识别给定时点的市场方向，不涉及具体的开仓、平仓或盈利条件，后续将作为研究 DD、假突破及 First Break 等价格行为结构的基础市场环境。
